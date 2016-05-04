@@ -14,7 +14,7 @@ import me.tend.test.interceptor.SessionInterceptor;
 public class Application {
 
 	public void addInterceptors(InterceptorRegistry registry){
-		registry.addInterceptor(new SessionInterceptor()).addPathPatterns("/**");
+		registry.addInterceptor(new SessionInterceptor()).addPathPatterns("/**" );
 	}
 	
 	public static void main(String[] args) {
